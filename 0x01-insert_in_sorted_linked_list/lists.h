@@ -2,10 +2,7 @@
 #define LISTS_H
 
 #include <stddef.h>
-
-/* Prototype */
-
-listint_t *insert_node(listint_t **head, int number);
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
