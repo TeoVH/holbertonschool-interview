@@ -3,6 +3,10 @@
 
 #include <stddef.h>
 
+/* Prototype */
+
+listint_t *insert_node(listint_t **head, int number);
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
